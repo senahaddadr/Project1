@@ -2,6 +2,80 @@
 
 
 body {
+    margin: 0;
     display: flex;
+    flex-direction: column;
     font-family: roboto;
+    color: #F9FAF8;
+    background-size: cover;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0 8px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.left {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 160px 0;
+}
+
+img {
+    margin: auto 0;
+    align-self: flex-end;
+}
+
+.page-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.text, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 24px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.left, .right {
+    justify-content: space-between;
 }
