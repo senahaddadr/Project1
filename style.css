@@ -5,9 +5,9 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: roboto;
     color: #F9FAF8;
     background-size: cover;
+    font-family: 'Roboto';
 }
 
 ul {
@@ -42,7 +42,7 @@ a {
     margin: 160px 0;
 }
 
-img {
+.right img {
     margin: auto 0;
     align-self: flex-end;
 }
@@ -68,7 +68,10 @@ img {
     color: #F9FAF8;
     font-size: 16px;
     font-weight: bold;
-    padding: 8px 24px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
 }
 
 .right {
@@ -78,4 +81,100 @@ img {
 
 .left, .right {
     justify-content: space-between;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: 800;
+    color: #152937;
+    text-align: center;
+    margin: 50px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.image {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: justify;
+    text-align-last: center;
+    gap: 8px;
+    margin-bottom: 100px;
+}
+
+.information img {
+    border: 4px solid rgb(50, 130, 255);
+    border-radius: 12px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #909090;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 160px 310px;
+
+}
+
+.quote .text {
+    font: 5 italic 36px 'Roboto';
+    color: #1F2937;
+}
+
+.reference {
+    text-align: right;
+    font-size: 28px;
+    margin: 0 40px;
+    color: #091116;
+    font-weight: bold;
+}
+
+.warning {
+    padding: 48px 120px;
+    background-color: #3882F6;
+    display: flex;
+    margin: 80px 160px;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 8px;
+}
+
+.w {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.w.title  {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.w.text {
+    color: #cbcbcb;
+}
+
+.warning button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 32px;
 }
